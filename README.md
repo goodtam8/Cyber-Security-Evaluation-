@@ -1,57 +1,71 @@
-# CTFKnow: Measuring and Augmenting Large Language Models for Solving Capture-the-Flag Challenges
+# LLM for Red/Blue Teaming: Cybersecurity Evaluation via CTFKnow
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](paper.pdf)
+[![Paper](https://img.shields.io/badge/arXiv-2506.17644-red.svg)](https://arxiv.org/abs/2506.17644)
+
+## 🗂️ Project Info
+
+| Field | Details |
+|---|---|
+| **Student** | TAM Kar Nam (SID: 21191632) |
+| **Project Title** | LLM for Red/Blue Teaming |
+| **Supervisor** | Prof. Wang Shuai |
+| **Industry Collaborator** | CMHK |
+| **Course** | CSIT 6910 – Independent Project |
+
+---
 
 ## 📖 Overview
 
-CTFKnow is a comprehensive research framework designed to measure and enhance Large Language Models (LLMs) capabilities in solving Capture-the-Flag (CTF) cybersecurity challenges. This project provides a complete pipeline for automated data collection, knowledge extraction, question generation, and model evaluation in the cybersecurity domain.
+This project comprehensively evaluates the technical cybersecurity knowledge of mainstream Large Language Models (LLMs) using the **CTFKnow** benchmark — a dataset derived from Capture-the-Flag (CTF) challenge write-ups. By measuring LLM performance on both single-choice and open-ended questions, the project investigates *why* certain model architectures outperform others, specifically comparing reasoning vs. non-reasoning models and newer vs. older model generations.
 
-### 🎯 Key Features
+The project reproduces and extends the evaluation methodology from:
+> Ji, Z., Wu, D., Jiang, W., Ma, P., Li, Z., & Wang, S. (2025). *Measuring and Augmenting Large Language Models for Solving Capture-the-Flag Challenges.* [arXiv:2506.17644](https://arxiv.org/abs/2506.17644)
 
-- **Automated CTF Write-up Collection**: Scrapes high-quality write-ups from CTFtime.org
-- **Intelligent Knowledge Extraction**: Uses LLMs to extract universal cybersecurity knowledge from write-ups
-- **Automated Question Generation**: Creates both multiple-choice and open-ended questions
-- **Comprehensive Model Evaluation**: Evaluates LLM performance on cybersecurity tasks
-- **Vulnerable Code Dataset**: Builds datasets with vulnerable code snippets and exploitation scenarios
-- **Multi-Model Support**: Compatible with various LLM providers (OpenAI, Replicate, etc.)
+### 🎯 Key Objectives
 
-## 🏗️ Architecture
+- **Reproduce** the CTFKnow measurement results from Ji et al., 2025 (Section 3: Measuring LLM Capability for CTF)
+- **Evaluate** GPT-5-mini, GPT-4o, and o4-mini on CTF technical knowledge tasks
+- **Analyze** why reasoning models outperform non-reasoning models
+- **Investigate** why newer models (GPT-5-mini) outperform older models (GPT-4o)
+- **Visualize** performance by difficulty, topic, and question type
+
+---
+
+## 🏗️ Architecture & Pipeline
 
 ```
-CTFKnow/
-├── scraper/                 # Data collection module
-│   ├── scraper.py          # Main scraper orchestration
-│   ├── ctft/               # CTFtime.org specific scrapers
-│   │   ├── get_writeup_url.py
-│   │   ├── ctftime_scrape.py
-│   │   └── souper.py
-│   └── all.md              # Competition list
-├── dataset/                # Data storage
-│   ├── raw/                # Raw write-up files
-│   ├── list.json           # Challenge metadata
-│   ├── list_knwoledge_question.json
-│   └── list_knwoledge_key.json
-├── run.py                  # Main processing pipeline
-├── prompts.py              # LLM prompt templates
-└── paper.pdf              # Research paper
+Cyber-Security-Evaluation/
+├── dataset/                 # CTFKnow dataset (205 samples used)
+│   └── list.json            # Challenge metadata
+├── run.py                   # Main evaluation pipeline (Azure OpenAI)
+├── prompts.py               # LLM prompt templates
+├── visualize.py             # Data visualization (pandas/matplotlib)
+├── results/
+│   ├── gpt-4o_results.json
+│   ├── gpt-5-mini_results.json
+│   ├── o4-mini_results.json
+│   └── combined_results.json  # Merged with difficulty + type fields
+└── README.md
 ```
+
+---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Python 3.8+
-- OpenAI API key (or other LLM provider)
-- Required Python packages (see installation section)
+- Azure OpenAI API access (configured to run without VPN)
+- Required Python packages
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/tszdanger/CTFKnow.git
-   cd CTFKnow
+   git clone https://github.com/goodtam8/Cyber-Security-Evaluation-.git
+   cd Cyber-Security-Evaluation-
    ```
 
 2. **Install dependencies**
@@ -59,274 +73,121 @@ CTFKnow/
    pip install -r requirements.txt
    ```
 
-3. **Set up API keys**
+3. **Set up Azure OpenAI credentials**
    ```bash
-   export OPENAI_API_KEY="your-openai-api-key"
-   # For other providers, set appropriate environment variables
+   export AZURE_OPENAI_API_KEY="your-azure-api-key"
+   export AZURE_OPENAI_ENDPOINT="your-azure-endpoint"
    ```
 
 ### Basic Usage
 
-#### 1. Data Collection (Optional - Pre-collected data available)
-```bash
-cd scraper
-python scraper.py
-```
-
-#### 2. Knowledge Extraction
+#### 1. Knowledge Extraction (Pre-collected data available from [Ji et al., 2025](https://github.com/tszdanger/CTFKnow/tree/main/dataset))
 ```bash
 python run.py K -i dataset/list.json -o dataset/knowledge.json
 ```
 
-#### 3. Question Generation
+#### 2. Question Generation
 ```bash
 python run.py Q -i dataset/knowledge.json -o dataset/questions.json -q dataset/question_list.json
 ```
 
-#### 4. Model Evaluation
+#### 3. Model Evaluation
 ```bash
 # Multiple choice evaluation
-python run.py E -M single -l gpt-4-0125-preview -o evaluation_log.json
+python run.py E -M single -l gpt-4o -o results/gpt-4o_results.json
 
 # Open-ended question evaluation
-python run.py E -M open -l gpt-4-0125-preview -o evaluation_log.json
+python run.py E -M open -l gpt-5-mini -o results/gpt-5-mini_results.json
 ```
 
-## 📊 Dataset Statistics
-
-The CTFKnow dataset includes:
-
-- **13,000+ CTF Challenges** from various competitions
-- **6 Challenge Categories**: Web, Pwn, Reverse, Crypto, Forensics, Misc
-- **2019-2024 Time Span**: Covers challenges from multiple years
-- **Difficulty Distribution**: Normalized difficulty scores
-- **Quality Filtered**: Only high-rated write-ups included
-
-### Challenge Distribution
-
-| Category | Count | Percentage |
-|----------|-------|------------|
-| Web | ~2,500 | 19% |
-| Pwn | ~2,000 | 15% |
-| Reverse | ~2,200 | 17% |
-| Crypto | ~2,800 | 22% |
-| Forensics | ~1,800 | 14% |
-| Misc | ~1,700 | 13% |
-
-## 🔧 Core Components
-
-### 1. Data Collection Module (`scraper/`)
-
-The scraper module automatically collects CTF write-ups from CTFtime.org:
-
-- **Competition Discovery**: Automatically finds CTF competitions
-- **Write-up Selection**: Chooses highest-rated write-ups for each challenge
-- **Content Processing**: Converts HTML to clean Markdown format
-- **Metadata Extraction**: Captures challenge type, difficulty, and competition info
-
-```python
-# Example: Scraping a specific competition
-from scraper.ctft.get_writeup_url import list_writeups
-writeups = await list_writeups("https://ctftime.org/event/1234/tasks/")
-```
-
-### 2. Knowledge Extraction (`Knowledge` class)
-
-Extracts universal cybersecurity knowledge from write-ups:
-
-- **LLM-Powered Extraction**: Uses GPT-3.5-turbo for knowledge identification
-- **Universal Knowledge**: Focuses on transferable security concepts
-- **Structured Output**: Generates standardized knowledge representations
-- **Payload Examples**: Includes practical exploitation examples
-
-```python
-# Example: Knowledge extraction
-from run import Knowledge
-extractor = Knowledge('dataset/list.json', 'dataset/knowledge.json')
-extractor.extract()
-```
-
-### 3. Question Generation (`Question` class)
-
-Generates assessment questions from extracted knowledge:
-
-- **Multiple Choice Questions**: Creates 4-option questions with distractors
-- **Open-Ended Questions**: Generates short-answer questions
-- **Difficulty Scaling**: Questions match original challenge difficulty
-- **Quality Control**: Ensures question clarity and correctness
-
-```python
-# Example: Question generation
-from run import Question
-generator = Question('dataset/knowledge.json', 'dataset/questions.json', 'dataset/question_list.json')
-generator.generate()
-```
-
-### 4. Model Evaluation (`Evaluation` class)
-
-Comprehensive evaluation of LLM performance:
-
-- **Multiple Metrics**: Accuracy, precision, recall, F1-score
-- **Batch Processing**: Efficient evaluation of large question sets
-- **Detailed Logging**: Comprehensive evaluation logs
-- **Model Comparison**: Easy comparison between different LLMs
-
-```python
-# Example: Model evaluation
-from run import Evaluation
-evaluator = Evaluation('gpt-4-0125-preview', 'dataset/question_list.json')
-results = evaluator.envaluate()
-```
-
-## 🎯 Use Cases
-
-### 1. LLM Security Assessment
-Evaluate how well different LLMs perform on cybersecurity tasks:
-
+#### 4. Visualization
 ```bash
-# Compare multiple models
-python run.py E -M single -l gpt-4-0125-preview -o gpt4_results.json
-python run.py E -M single -l claude-3-opus -o claude_results.json
-python run.py E -M single -l llama-3-70b -o llama_results.json
+python visualize.py --input results/combined_results.json
 ```
 
-### 2. Security Education
-Generate educational content for cybersecurity training:
+---
 
-```bash
-# Generate questions for specific categories
-python run.py Q -i dataset/web_knowledge.json -o web_questions.json -q web_question_list.json
-```
+## 📊 Evaluation Results
 
-### 3. Research Benchmark
-Use as a standardized benchmark for security AI research:
+Models were evaluated on the first **205 samples** of the CTFKnow dataset due to token budget constraints (≈HKD 300). An additional validator model (o3-mini) was used to cross-check short-answer responses to avoid bias.
 
-```bash
-# Full pipeline for research
-python run.py K -i dataset/list.json -o dataset/knowledge.json
-python run.py Q -i dataset/knowledge.json -o dataset/questions.json -q dataset/question_list.json
-python run.py E -M single -l your-model -o research_results.json
-```
+### Decoding Hyperparameters
 
-### 4. Vulnerability Analysis
-Build datasets with vulnerable code for security research:
+| Parameter | Value |
+|---|---|
+| Temperature | 0 |
+| top_p | 0.9 |
+| top_k | 50 |
+| presence_penalty | 1.15 |
+| frequency_penalty | 0.2 |
+| max_tokens | 2048 |
 
-```bash
-python run.py B -l dataset/list.json -o dataset/vulnerable_code.json
-```
+### Single-Choice Performance
 
-## 📈 Performance Metrics
+All three models achieved **>90% accuracy** on single-choice questions:
 
-CTFKnow provides comprehensive evaluation metrics:
+| Model | Single-Choice Accuracy |
+|---|---|
+| **GPT-5-mini** | **96.5%** (highest) |
+| o4-mini | >90% |
+| GPT-4o | >90% |
 
-- **Accuracy**: Overall correct answer rate
-- **Category-wise Performance**: Performance breakdown by challenge type
-- **Difficulty Analysis**: Performance across different difficulty levels
-- **Question Type Analysis**: Multiple choice vs. open-ended performance
-- **Confidence Analysis**: Model confidence vs. accuracy correlation
+### Open-Ended Performance
 
-## 🔧 Advanced Configuration
+Performance drops significantly (20–30%) on open-ended questions:
 
-### Custom Prompts
-Modify `prompts.py` to customize LLM interactions:
+| Model | Open-Ended Accuracy |
+|---|---|
+| **GPT-5-mini** | 75–80% |
+| o4-mini | 75–80% |
+| GPT-4o | ~60.8% (lowest) |
 
-```python
-# Example: Custom knowledge extraction prompt
-CUSTOM_EXTRACTION_PROMPT = """
-You are an expert cybersecurity analyst. Extract the core security concepts from this CTF write-up.
-Focus on universal principles that apply across different scenarios.
-"""
-```
+### Key Insights
 
-### Model Integration
-Add support for new LLM providers in `run.py`:
+1. **Reasoning models > Non-reasoning models**: o4-mini almost always respects key problem constraints and applies micro-decomposition (breaking problems into sequential local steps), whereas GPT-4o frequently proposes solutions that violate constraints.
 
-```python
-# Example: Adding new model support
-def query_custom_model(input, system_prompt):
-    # Implement your model API call here
-    response = your_model_api(input, system_prompt)
-    return response, 1
-```
+2. **Newer models > Older models**: GPT-5-mini outperforms GPT-4o because it benefits from better-curated training data containing CTF-specific idioms (e.g., tcache safe-linking, ROT47, PNG structure manipulation). Rather than using generic high-frequency heuristics like GPT-4o, GPT-5-mini aligns with task-specific implicit rubrics.
 
-### Data Processing Pipeline
-Customize the data processing workflow:
+3. **Web challenges are hardest**: Web tasks involve dynamic, tool-driven, multimodal knowledge (SQLi, XSS, file upload exploitation) that is harder to consolidate during LLM pre-training.
 
-```python
-# Example: Custom data preprocessing
-class CustomKnowledge(Knowledge):
-    def preprocess_writeup(self, writeup_content):
-        # Add your preprocessing logic
-        return processed_content
-```
+---
 
-## 📚 API Reference
+## 🔧 Core Prompts
 
-### Main Classes
+### Knowledge Extraction
+> Instructs an LLM to extract up to 2 distinct universal CTF knowledge points from each write-up, including applicable conditions and payload examples.
 
-#### `Buildinit`
-Initializes the dataset and generates statistics.
+### Question Generation
+> Converts extracted knowledge into single-choice questions with 4 options (1 correct + 3 distractors with matching format), and open-ended short-answer questions.
 
-```python
-init = Buildinit('dataset/list.json', 'dataset/raw', 'dataset/data.json')
-init.build()  # Build initial dataset
-init.draw_graph()  # Generate statistics
-```
+### Answer Evaluation
+> Uses o3-mini as a judge to classify model answers as `correct` or `incorrect` based on strict equivalence to a reference answer.
 
-#### `Knowledge`
-Extracts cybersecurity knowledge from write-ups.
+Full prompts are available in [`prompts.py`](prompts.py) and the project report appendix.
 
-```python
-extractor = Knowledge('dataset/list.json', 'dataset/knowledge.json')
-extractor.extract()  # Extract knowledge
-extractor.save_data()  # Save results
-```
+---
 
-#### `Question`
-Generates questions from extracted knowledge.
+## 📈 Future Work
 
-```python
-generator = Question('dataset/knowledge.json', 'dataset/questions.json', 'dataset/question_list.json')
-generator.generate()  # Generate questions
-generator.convert_questions()  # Convert to open-ended
-```
+- Evaluate additional recently-launched models to track improvement trends
+- Develop effective CTF task transformations (t → t₁, t₂, …) to better probe model knowledge
+- Enrich model knowledge through:
+  - Targeted **model fine-tuning** on CTF-specific data
+  - **Prompt chaining** with automated feedback loops
+  - **Retrieval-Augmented Generation (RAG)** to embed missing procedural knowledge
+- Investigate causal reasoning gaps in LLMs for dynamic exploit scenarios
 
-#### `Evaluation`
-Evaluates LLM performance on generated questions.
+---
 
-```python
-evaluator = Evaluation('model-name', 'dataset/question_list.json')
-evaluator.envaluate()  # Multiple choice evaluation
-evaluator.envaluate_short_answer()  # Open-ended evaluation
-```
+## 📚 References
 
-## 🤝 Contributing
+- Ji, Z., Wu, D., Jiang, W., Ma, P., Li, Z., & Wang, S. (2025). Measuring and augmenting large language models for solving capture-the-flag challenges. *arXiv:2506.17644*. https://arxiv.org/abs/2506.17644
+- Shao, M., et al. (2024). NYU CTF Dataset: A Scalable Open-Source Benchmark Dataset for Evaluating LLMs in Offensive Security. *arXiv:2406.05590*.
+- Yang, J., et al. (2023). Language agents as hackers: Evaluating cybersecurity skills with capture the flag. *Multi-Agent Security Workshop @ NeurIPS'23*.
 
-We welcome contributions! Please see our contributing guidelines:
+---
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
-
-### Development Setup
-
-```bash
-# Clone and setup development environment
-git clone https://github.com/tszdanger/CTFKnow.git
-cd CTFKnow
-pip install -r requirements-dev.txt
-pre-commit install
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📖 Citation
-
-If you use CTFKnow in your research, please cite our paper:
+## 📄 Citation
 
 ```bibtex
 @article{ji2025measuring,
@@ -337,6 +198,8 @@ If you use CTFKnow in your research, please cite our paper:
 }
 ```
 
-
-
 ---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
