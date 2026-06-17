@@ -8,11 +8,9 @@
 
 | Field | Details |
 |---|---|
-| **Student** | TAM Kar Nam (SID: 21191632) |
 | **Project Title** | LLM for Red/Blue Teaming |
 | **Supervisor** | Prof. Wang Shuai |
 | **Industry Collaborator** | CMHK |
-| **Course** | CSIT 6910 – Independent Project |
 
 ---
 
