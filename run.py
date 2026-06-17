@@ -11,13 +11,17 @@ import matplotlib.gridspec as gridspec
 import numpy as np
 from prompts import *
 from openai import AzureOpenAI
+from dotenv import load_dotenv
+
+
+# Load environment variables from the .env file
+load_dotenv()
 
 client = AzureOpenAI(
-    api_key="953ebeafbb844b1ba676388c7050a831",  # your api key
-    api_version="2025-02-01-preview",             # change to newer API version
-    azure_endpoint="https://hkust.azure-api.net"
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 )
-
 
 def query_replicate(input, system_promt='You are a helpful assistant.', model="meta/meta-llama-3-70b-instruct", visible=True):
     input = input.replace("{", "")
