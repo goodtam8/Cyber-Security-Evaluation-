@@ -1,0 +1,2475 @@
+[
+    {
+        "name": "$hell Game$",
+        "write_up": "dataset/raw/$hell Game$.md",
+        "type": "misc",
+        "competition": [
+            "HackPack/2020",
+            "https://ctftime.org/event/1036/tasks/"
+        ],
+        "score": 433,
+        "max_score": 497,
+        "difficulty": 0.8712273641851107
+    },
+    {
+        "name": "(Regulated) Environmental Issues",
+        "write_up": "dataset/raw/(Regulated) Environmental Issues.md",
+        "type": "misc",
+        "competition": [
+            "SpamAndFlags/2020/Quals",
+            "https://ctftime.org/event/970/tasks/"
+        ],
+        "score": 192,
+        "max_score": 500,
+        "difficulty": 0.384
+    },
+    {
+        "name": "0AV",
+        "write_up": "dataset/raw/0AV.md",
+        "type": "misc",
+        "competition": [
+            "zer0pts/2022",
+            "https://ctftime.org/event/1555/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "0ff Again On Aga1n",
+        "write_up": "dataset/raw/0ff Again On Aga1n.md",
+        "type": "crypto",
+        "competition": [
+            "DEADFACE/2023",
+            "https://ctftime.org/event/2031/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "11011001",
+        "write_up": "dataset/raw/11011001.md",
+        "type": "reverse",
+        "competition": [
+            "HITCON/2020",
+            "https://ctftime.org/event/1136/tasks/"
+        ],
+        "score": 255,
+        "max_score": 384,
+        "difficulty": 0.6640625
+    },
+    {
+        "name": "404 Not Found",
+        "write_up": "dataset/raw/404 Not Found.md",
+        "type": "reverse",
+        "competition": [
+            "BSidesTLV/2022",
+            "https://ctftime.org/event/1680/tasks/"
+        ],
+        "score": -1,
+        "max_score": 100,
+        "difficulty": -1
+    },
+    {
+        "name": "435!",
+        "write_up": "dataset/raw/435!.md",
+        "type": "crypto",
+        "competition": [
+            "TMUCTF/2021",
+            "https://ctftime.org/event/1427/tasks/"
+        ],
+        "score": 413,
+        "max_score": 500,
+        "difficulty": 0.826
+    },
+    {
+        "name": "64+word",
+        "write_up": "dataset/raw/64+word.md",
+        "type": "The type of challenge in this write-up is **forensics**.",
+        "competition": [
+            "HSCTF/2019",
+            "https://ctftime.org/event/821/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "90",
+        "write_up": "dataset/raw/90.9 WPIFM.md",
+        "type": "The type of this CTF challenge is \"steganography\".",
+        "competition": [
+            "BSidesTLV/2020",
+            "https://ctftime.org/event/1078/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 600,
+        "difficulty": -1
+    },
+    {
+        "name": "A Bit Weird",
+        "write_up": "dataset/raw/A Bit Weird.md",
+        "type": "crypto",
+        "competition": [
+            "UTCTF/2021",
+            "https://ctftime.org/event/1177/tasks/"
+        ],
+        "score": 986,
+        "max_score": 1000,
+        "difficulty": 0.986
+    },
+    {
+        "name": "A Christmas Dilemma",
+        "write_up": "dataset/raw/A Christmas Dilemma.md",
+        "type": "pwn",
+        "competition": [
+            "X-MAS/2018",
+            "https://ctftime.org/event/724/tasks/"
+        ],
+        "score": 205,
+        "max_score": 591,
+        "difficulty": 0.34686971235194586
+    },
+    {
+        "name": "A Flash of Inspiration",
+        "write_up": "dataset/raw/A Flash of Inspiration.md",
+        "type": "pwn",
+        "competition": [
+            "RACTF/2020",
+            "https://ctftime.org/event/1051/tasks/"
+        ],
+        "score": 300,
+        "max_score": 700,
+        "difficulty": 0.42857142857142855
+    },
+    {
+        "name": "A Happy Family",
+        "write_up": "dataset/raw/A Happy Family.md",
+        "type": "reverse",
+        "competition": [
+            "angstrom/2020",
+            "https://ctftime.org/event/982/tasks/"
+        ],
+        "score": 120,
+        "max_score": 300,
+        "difficulty": 0.4
+    },
+    {
+        "name": "A Lost Cause",
+        "write_up": "dataset/raw/A Lost Cause.md",
+        "type": "crypto",
+        "competition": [
+            "HSCTF/2019",
+            "https://ctftime.org/event/821/tasks/"
+        ],
+        "score": 196,
+        "max_score": 500,
+        "difficulty": 0.392
+    },
+    {
+        "name": "A New Hope",
+        "write_up": "dataset/raw/A New Hope.md",
+        "type": "web",
+        "competition": [
+            "SpaceHeroes/2023",
+            "https://ctftime.org/event/1856/tasks/"
+        ],
+        "score": 184,
+        "max_score": 1000,
+        "difficulty": 0.184
+    },
+    {
+        "name": "A Prime Problem",
+        "write_up": "dataset/raw/A Prime Problem.md",
+        "type": "crypto",
+        "competition": [
+            "TexSAW/2023",
+            "https://ctftime.org/event/1959/tasks/"
+        ],
+        "score": 400,
+        "max_score": 400,
+        "difficulty": 1.0
+    },
+    {
+        "name": "A secure database",
+        "write_up": "dataset/raw/A secure database.md",
+        "type": "The type of the CTF challenge described in the write-up is a `reverse` challenge.",
+        "competition": [
+            "SharkyCTF/2020",
+            "https://ctftime.org/event/1034/tasks/"
+        ],
+        "score": 299,
+        "max_score": 600,
+        "difficulty": 0.49833333333333335
+    },
+    {
+        "name": "A to Z",
+        "write_up": "dataset/raw/A to Z.md",
+        "type": "crypto",
+        "competition": [
+            "MetaCTF/2021",
+            "https://ctftime.org/event/1476/tasks/"
+        ],
+        "score": 100,
+        "max_score": 550,
+        "difficulty": 0.18181818181818182
+    },
+    {
+        "name": "A Tour of x86 - Part 1",
+        "write_up": "dataset/raw/A Tour of x86 - Part 1.md",
+        "type": "The type of challenge is: reverse",
+        "competition": [
+            "CSAW/2018/Quals",
+            "https://ctftime.org/event/633/tasks/"
+        ],
+        "score": 50,
+        "max_score": 1285,
+        "difficulty": 0.038910505836575876
+    },
+    {
+        "name": "A Weird List of Sequences",
+        "write_up": "dataset/raw/A Weird List of Sequences.md",
+        "type": "misc",
+        "competition": [
+            "X-MAS/2018",
+            "https://ctftime.org/event/724/tasks/"
+        ],
+        "score": 392,
+        "max_score": 591,
+        "difficulty": 0.6632825719120136
+    },
+    {
+        "name": "A3S",
+        "write_up": "dataset/raw/A3S.md",
+        "type": "This write-up describes a crypto challenge.",
+        "competition": [
+            "RaRCTF/2021",
+            "https://ctftime.org/event/1342/tasks/"
+        ],
+        "score": 800,
+        "max_score": 1500,
+        "difficulty": 0.5333333333333333
+    },
+    {
+        "name": "AAAAAAAAAAAAAAAA",
+        "write_up": "dataset/raw/AAAAAAAAAAAAAAAA.md",
+        "type": "pwn",
+        "competition": [
+            "UTCTF/2022",
+            "https://ctftime.org/event/1582/tasks/"
+        ],
+        "score": 100,
+        "max_score": 1000,
+        "difficulty": 0.1
+    },
+    {
+        "name": "Ace of Spades",
+        "write_up": "dataset/raw/Ace of Spades.md",
+        "type": "pwn",
+        "competition": [
+            "PwnThyBytes/2019",
+            "https://ctftime.org/event/756/tasks/"
+        ],
+        "score": 964,
+        "max_score": 1000,
+        "difficulty": 0.964
+    },
+    {
+        "name": "aces-aes",
+        "write_up": "dataset/raw/aces-aes.md",
+        "type": "crypto",
+        "competition": [
+            "JerseyCTF/2024",
+            "https://ctftime.org/event/2230/tasks/"
+        ],
+        "score": 1000,
+        "max_score": 1000,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Ada Lovelace",
+        "write_up": "dataset/raw/Ada Lovelace.md",
+        "type": "pwn",
+        "competition": [
+            "CyberHeroines/2023",
+            "https://ctftime.org/event/2054/tasks/"
+        ],
+        "score": 400,
+        "max_score": 400,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Admin CLI",
+        "write_up": "dataset/raw/Admin CLI.md",
+        "type": "This write-up describes a hash collision challenge in a Java class file where the goal is to create a URL that has the same hash code as specified in the challenge. Based on the provided information, I would classify this challenge as a **crypto** challenge.",
+        "competition": [
+            "FE-CTF/2023",
+            "https://ctftime.org/event/1979/tasks/"
+        ],
+        "score": 1,
+        "max_score": 1,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Admin",
+        "write_up": "dataset/raw/Admin.md",
+        "type": "pwn",
+        "competition": [
+            "ASIS/2020/Quals",
+            "https://ctftime.org/event/964/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 375,
+        "difficulty": -1
+    },
+    {
+        "name": "Advanced Json Cutifier",
+        "write_up": "dataset/raw/Advanced Json Cutifier.md",
+        "type": "web",
+        "competition": [
+            "Mapna/2024",
+            "https://ctftime.org/event/2205/tasks/"
+        ],
+        "score": 59,
+        "max_score": 375,
+        "difficulty": 0.15733333333333333
+    },
+    {
+        "name": "Advanced Reversing Mechanics 2",
+        "write_up": "dataset/raw/Advanced Reversing Mechanics 2.md",
+        "type": "The type of challenge in this write-up is **reverse**.",
+        "competition": [
+            "rgbCTF/2020",
+            "https://ctftime.org/event/1042/tasks/"
+        ],
+        "score": 461,
+        "max_score": 500,
+        "difficulty": 0.922
+    },
+    {
+        "name": "AEG",
+        "write_up": "dataset/raw/AEG.md",
+        "type": "reverse",
+        "competition": [
+            "UTCTF/2021",
+            "https://ctftime.org/event/1177/tasks/"
+        ],
+        "score": 992,
+        "max_score": 1000,
+        "difficulty": 0.992
+    },
+    {
+        "name": "AESential Lesson",
+        "write_up": "dataset/raw/AESential Lesson.md",
+        "type": "crypto",
+        "competition": [
+            "TU/2018",
+            "https://ctftime.org/event/650/tasks/"
+        ],
+        "score": 465,
+        "max_score": 497,
+        "difficulty": 0.9356136820925554
+    },
+    {
+        "name": "AESy",
+        "write_up": "dataset/raw/AESy.md",
+        "type": "crypto",
+        "competition": [
+            "ByteBandits/2020",
+            "https://ctftime.org/event/1022/tasks/"
+        ],
+        "score": 471,
+        "max_score": 500,
+        "difficulty": 0.942
+    },
+    {
+        "name": "Algorithm",
+        "write_up": "dataset/raw/Algorithm.md",
+        "type": "reverse",
+        "competition": [
+            "HSCTF/2019",
+            "https://ctftime.org/event/821/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Alice & Bob Flip a Bit Easy",
+        "write_up": "dataset/raw/Alice & Bob Flip a Bit Easy.md",
+        "type": "This write-up describes a reverse challenge.",
+        "competition": [
+            "FE-CTF/2023",
+            "https://ctftime.org/event/1979/tasks/"
+        ],
+        "score": 0.33,
+        "max_score": 1,
+        "difficulty": 0.33
+    },
+    {
+        "name": "Alphabet",
+        "write_up": "dataset/raw/Alphabet.md",
+        "type": "The type of this CTF challenge is `misc`.",
+        "competition": [
+            "FireShell/2020",
+            "https://ctftime.org/event/944/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "angrme",
+        "write_up": "dataset/raw/angrme.md",
+        "type": "reverse",
+        "competition": [
+            "HXP/2018",
+            "https://ctftime.org/event/647/tasks/"
+        ],
+        "score": 50,
+        "max_score": 412,
+        "difficulty": 0.12135922330097088
+    },
+    {
+        "name": "Angry Defender",
+        "write_up": "dataset/raw/Angry Defender.md",
+        "type": "reverse",
+        "competition": [
+            "CONFidence/2020/Quals",
+            "https://ctftime.org/event/960/tasks/"
+        ],
+        "score": 448,
+        "max_score": 476,
+        "difficulty": 0.9411764705882353
+    },
+    {
+        "name": "Another Discord 100",
+        "write_up": "dataset/raw/Another Discord 100.md",
+        "type": "misc",
+        "competition": [
+            "TCP1P-CTF/2023",
+            "https://ctftime.org/event/2001/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Another ret to libc",
+        "write_up": "dataset/raw/Another ret to libc.md",
+        "type": "pwn",
+        "competition": [
+            "kksctf/2019",
+            "https://ctftime.org/event/874/tasks/"
+        ],
+        "score": 997,
+        "max_score": 1000,
+        "difficulty": 0.997
+    },
+    {
+        "name": "Anti-Fermat",
+        "write_up": "dataset/raw/Anti-Fermat.md",
+        "type": "crypto",
+        "competition": [
+            "zer0pts/2022",
+            "https://ctftime.org/event/1555/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Anti-Libc",
+        "write_up": "dataset/raw/Anti-Libc.md",
+        "type": "pwn",
+        "competition": [
+            "BxMCTF/2023",
+            "https://ctftime.org/event/2004/tasks/"
+        ],
+        "score": 458,
+        "max_score": 458,
+        "difficulty": 1.0
+    },
+    {
+        "name": "any second now",
+        "write_up": "dataset/raw/any second now.md",
+        "type": "The type of the challenge is **crypto**.",
+        "competition": [
+            "b01lers/2024",
+            "https://ctftime.org/event/2250/tasks/"
+        ],
+        "score": -1,
+        "max_score": 438,
+        "difficulty": -1
+    },
+    {
+        "name": "apl",
+        "write_up": "dataset/raw/apl.md",
+        "type": "The type of this CTF challenge is `misc`.",
+        "competition": [
+            "0x41414141/2021",
+            "https://ctftime.org/event/1249/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "AppArmor2",
+        "write_up": "dataset/raw/AppArmor2.md",
+        "type": "The given write-up is for a **forensics** challenge.",
+        "competition": [
+            "Dragon/2020",
+            "https://ctftime.org/event/1082/tasks/"
+        ],
+        "score": 421,
+        "max_score": 500,
+        "difficulty": 0.842
+    },
+    {
+        "name": "Appnote",
+        "write_up": "dataset/raw/Appnote.md",
+        "type": "misc",
+        "competition": [
+            "GoogleCTF/2022",
+            "https://ctftime.org/event/1641/tasks/"
+        ],
+        "score": 50,
+        "max_score": 314,
+        "difficulty": 0.1592356687898089
+    },
+    {
+        "name": "aptenodytes-forsteri",
+        "write_up": "dataset/raw/aptenodytes-forsteri.md",
+        "type": "crypto",
+        "competition": [
+            "HSCTF/2021",
+            "https://ctftime.org/event/1264/tasks/"
+        ],
+        "score": 183,
+        "max_score": 493,
+        "difficulty": 0.3711967545638945
+    },
+    {
+        "name": "ArbCrypt",
+        "write_up": "dataset/raw/ArbCrypt.md",
+        "type": "crypto",
+        "competition": [
+            "Sunshine/2019",
+            "https://ctftime.org/event/767/tasks/"
+        ],
+        "score": 200,
+        "max_score": 350,
+        "difficulty": 0.5714285714285714
+    },
+    {
+        "name": "Archimedes",
+        "write_up": "dataset/raw/Archimedes.md",
+        "type": "reverse",
+        "competition": [
+            "ASIS/2019/Quals",
+            "https://ctftime.org/event/732/tasks/"
+        ],
+        "score": 195,
+        "max_score": 500,
+        "difficulty": 0.39
+    },
+    {
+        "name": "Arithmetic",
+        "write_up": "dataset/raw/Arithmetic.md",
+        "type": "This is a **pwn** challenge.",
+        "competition": [
+            "MidnightSun/2022/Quals",
+            "https://ctftime.org/event/1474/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 909,
+        "difficulty": -1
+    },
+    {
+        "name": "Armoury",
+        "write_up": "dataset/raw/Armoury.md",
+        "type": "pwn",
+        "competition": [
+            "Pragyan/2019",
+            "https://ctftime.org/event/755/tasks/"
+        ],
+        "score": 400,
+        "max_score": 400,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Artscii",
+        "write_up": "dataset/raw/Artscii.md",
+        "type": "misc",
+        "competition": [
+            "insomnihack/2023/Quals",
+            "https://ctftime.org/event/1831/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "asm",
+        "write_up": "dataset/raw/asm.md",
+        "type": "pwn",
+        "competition": [
+            "BCACTF/2022",
+            "https://ctftime.org/event/1602/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 350,
+        "difficulty": -1
+    },
+    {
+        "name": "asr",
+        "write_up": "dataset/raw/asr.md",
+        "type": "crypto",
+        "competition": [
+            "UIUCTF/2022",
+            "https://ctftime.org/event/1600/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "AstroBot",
+        "write_up": "dataset/raw/AstroBot.md",
+        "type": "reverse",
+        "competition": [
+            "Pwn2Win/2019",
+            "https://ctftime.org/event/822/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "aush",
+        "write_up": "dataset/raw/aush.md",
+        "type": "pwn",
+        "competition": [
+            "zer0pts/2023",
+            "https://ctftime.org/event/1972/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "auth3ntication",
+        "write_up": "dataset/raw/auth3ntication.md",
+        "type": "web",
+        "competition": [
+            "BSidesDelhi/2018",
+            "https://ctftime.org/event/700/tasks/"
+        ],
+        "score": 200,
+        "max_score": 400,
+        "difficulty": 0.5
+    },
+    {
+        "name": "Automated Exploit Generation 2",
+        "write_up": "dataset/raw/Automated Exploit Generation 2.md",
+        "type": "pwn",
+        "competition": [
+            "UTCTF/2022",
+            "https://ctftime.org/event/1582/tasks/"
+        ],
+        "score": -1,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "b01ler-ad",
+        "write_up": "dataset/raw/b01ler-ad.md",
+        "type": "web",
+        "competition": [
+            "b01lers/2024",
+            "https://ctftime.org/event/2250/tasks/"
+        ],
+        "score": 302,
+        "max_score": 438,
+        "difficulty": 0.6894977168949772
+    },
+    {
+        "name": "B1 - Boris",
+        "write_up": "dataset/raw/B1 - Boris.md",
+        "type": "This CTF challenge falls under the category of **pwn (exploit)**.",
+        "competition": [
+            "DigitalOverdose/2021",
+            "https://ctftime.org/event/1459/tasks/"
+        ],
+        "score": 200,
+        "max_score": 600,
+        "difficulty": 0.3333333333333333
+    },
+    {
+        "name": "Baby bof",
+        "write_up": "dataset/raw/Baby bof.md",
+        "type": "pwn",
+        "competition": [
+            "DCTF/2021",
+            "https://ctftime.org/event/1361/tasks/"
+        ],
+        "score": 250,
+        "max_score": 500,
+        "difficulty": 0.5
+    },
+    {
+        "name": "Baby buffer overflow",
+        "write_up": "dataset/raw/Baby buffer overflow.md",
+        "type": "pwn",
+        "competition": [
+            "kksctf/2019",
+            "https://ctftime.org/event/874/tasks/"
+        ],
+        "score": 100,
+        "max_score": 1000,
+        "difficulty": 0.1
+    },
+    {
+        "name": "Baby crypto revisited",
+        "write_up": "dataset/raw/Baby crypto revisited.md",
+        "type": "crypto",
+        "competition": [
+            "LINE/2022",
+            "https://ctftime.org/event/1472/tasks/"
+        ],
+        "score": 138,
+        "max_score": 341,
+        "difficulty": 0.4046920821114369
+    },
+    {
+        "name": "Baby Encoder",
+        "write_up": "dataset/raw/Baby Encoder.md",
+        "type": "crypto",
+        "competition": [
+            "TMUCTF/2021",
+            "https://ctftime.org/event/1427/tasks/"
+        ],
+        "score": 489,
+        "max_score": 500,
+        "difficulty": 0.978
+    },
+    {
+        "name": "baby heap question mark",
+        "write_up": "dataset/raw/baby heap question mark.md",
+        "type": "pwn",
+        "competition": [
+            "PlaidCTF/2023",
+            "https://ctftime.org/event/1770/tasks/"
+        ],
+        "score": 200,
+        "max_score": 700,
+        "difficulty": 0.2857142857142857
+    },
+    {
+        "name": "Baby MD5",
+        "write_up": "dataset/raw/Baby MD5.md",
+        "type": "The type of this CTF challenge is crypto.",
+        "competition": [
+            "ASIS/2020/Finals",
+            "https://ctftime.org/event/1111/tasks/"
+        ],
+        "score": 78,
+        "max_score": 500,
+        "difficulty": 0.156
+    },
+    {
+        "name": "Baby Onion",
+        "write_up": "dataset/raw/Baby Onion.md",
+        "type": "This CTF challenge appears to be a crypto type challenge.",
+        "competition": [
+            "DawgCTF/2020",
+            "https://ctftime.org/event/1030/tasks/"
+        ],
+        "score": 150,
+        "max_score": 500,
+        "difficulty": 0.3
+    },
+    {
+        "name": "Baby Shock",
+        "write_up": "dataset/raw/Baby Shock.md",
+        "type": "misc",
+        "competition": [
+            "HITCON/2020",
+            "https://ctftime.org/event/1136/tasks/"
+        ],
+        "score": 201,
+        "max_score": 384,
+        "difficulty": 0.5234375
+    },
+    {
+        "name": "Baby Web 1",
+        "write_up": "dataset/raw/Baby Web 1.md",
+        "type": "web",
+        "competition": [
+            "RaziCTF/2020",
+            "https://ctftime.org/event/1167/tasks/"
+        ],
+        "score": 670,
+        "max_score": 996,
+        "difficulty": 0.6726907630522089
+    },
+    {
+        "name": "baby-bof",
+        "write_up": "dataset/raw/baby-bof.md",
+        "type": "This write-up describes a buffer overflow challenge in which the goal is to exploit a vulnerability in the `vuln` function to jump to the `flag` function in order to obtain the flag. Based on the description and solution provided, this challenge falls under the category of `pwn` (short for \"binary exploitation\").",
+        "competition": [
+            "Defcamp/2023/Quals",
+            "https://ctftime.org/event/2106/tasks/"
+        ],
+        "score": 10,
+        "max_score": 347,
+        "difficulty": 0.02881844380403458
+    },
+    {
+        "name": "baby-rsa",
+        "write_up": "dataset/raw/baby-rsa.md",
+        "type": "crypto",
+        "competition": [
+            "DiceCTF/2022",
+            "https://ctftime.org/event/1541/tasks/"
+        ],
+        "score": 117,
+        "max_score": 500,
+        "difficulty": 0.234
+    },
+    {
+        "name": "babybof",
+        "write_up": "dataset/raw/babybof.md",
+        "type": "reverse",
+        "competition": [
+            "castorsCTF/2020",
+            "https://ctftime.org/event/1063/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 496,
+        "difficulty": -1
+    },
+    {
+        "name": "babybof1 pt1",
+        "write_up": "dataset/raw/babybof1 pt1.md",
+        "type": "pwn",
+        "competition": [
+            "castorsCTF/2020",
+            "https://ctftime.org/event/1063/tasks/"
+        ],
+        "score": 86,
+        "max_score": 496,
+        "difficulty": 0.17338709677419356
+    },
+    {
+        "name": "babyjeep",
+        "write_up": "dataset/raw/babyjeep.md",
+        "type": "pwn",
+        "competition": [
+            "BlueHens/2021",
+            "https://ctftime.org/event/1298/tasks/"
+        ],
+        "score": 497,
+        "max_score": 500,
+        "difficulty": 0.994
+    },
+    {
+        "name": "BabyJS",
+        "write_up": "dataset/raw/BabyJS.md",
+        "type": "crypto",
+        "competition": [
+            "Defenit/2020",
+            "https://ctftime.org/event/1060/tasks/"
+        ],
+        "score": 248,
+        "max_score": 906,
+        "difficulty": 0.2737306843267108
+    },
+    {
+        "name": "BabyKitDriver",
+        "write_up": "dataset/raw/BabyKitDriver.md",
+        "type": "pwn",
+        "competition": [
+            "0CTF/2023",
+            "https://ctftime.org/event/2073/tasks/"
+        ],
+        "score": 647,
+        "max_score": 664,
+        "difficulty": 0.9743975903614458
+    },
+    {
+        "name": "babymips",
+        "write_up": "dataset/raw/babymips.md",
+        "type": "The challenge \"0CTF 2020 - baby MIPS\" is a reverse challenge.",
+        "competition": [
+            "0CTF/2020/Quals",
+            "https://ctftime.org/event/1026/tasks/"
+        ],
+        "score": -1,
+        "max_score": 846,
+        "difficulty": -1
+    },
+    {
+        "name": "babypwn",
+        "write_up": "dataset/raw/babypwn.md",
+        "type": "pwn",
+        "competition": [
+            "CyberSecurityRumble/2020",
+            "https://ctftime.org/event/1057/tasks/"
+        ],
+        "score": 100,
+        "max_score": 1337,
+        "difficulty": 0.07479431563201197
+    },
+    {
+        "name": "babyre2",
+        "write_up": "dataset/raw/babyre2.md",
+        "type": "reverse",
+        "competition": [
+            "RCTF/2018",
+            "https://ctftime.org/event/624/tasks/"
+        ],
+        "score": 444,
+        "max_score": 869,
+        "difficulty": 0.5109321058688148
+    },
+    {
+        "name": "babysandbox (pwn)",
+        "write_up": "dataset/raw/babysandbox (pwn).md",
+        "type": "pwn",
+        "competition": [
+            "MeePwn/2018/Quals",
+            "https://ctftime.org/event/625/tasks/"
+        ],
+        "score": 100,
+        "max_score": 940,
+        "difficulty": 0.10638297872340426
+    },
+    {
+        "name": "babystack",
+        "write_up": "dataset/raw/babystack.md",
+        "type": "pwn",
+        "competition": [
+            "0CTF/2018/Quals",
+            "https://ctftime.org/event/557/tasks/"
+        ],
+        "score": 132,
+        "max_score": 1000,
+        "difficulty": 0.132
+    },
+    {
+        "name": "Babysteps",
+        "write_up": "dataset/raw/Babysteps.md",
+        "type": "pwn",
+        "competition": [
+            "NahamCon/2022",
+            "https://ctftime.org/event/1630/tasks/"
+        ],
+        "score": 385,
+        "max_score": 2199,
+        "difficulty": 0.17507958162801274
+    },
+    {
+        "name": "Backtalk",
+        "write_up": "dataset/raw/Backtalk.md",
+        "type": "crypto",
+        "competition": [
+            "WPICTF/2019",
+            "https://ctftime.org/event/728/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Backup - frank",
+        "write_up": "dataset/raw/Backup - frank.md",
+        "type": "crypto",
+        "competition": [
+            "MidnightSun/2021/Quals",
+            "https://ctftime.org/event/1139/tasks/"
+        ],
+        "score": 121,
+        "max_score": 428,
+        "difficulty": 0.2827102803738318
+    },
+    {
+        "name": "back_to_basics",
+        "write_up": "dataset/raw/back_to_basics.md",
+        "type": "crypto",
+        "competition": [
+            "UIUCTF/2021",
+            "https://ctftime.org/event/1372/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "Bad Python",
+        "write_up": "dataset/raw/Bad Python.md",
+        "type": "reverse",
+        "competition": [
+            "TJCTF/2020",
+            "https://ctftime.org/event/928/tasks/"
+        ],
+        "score": 50,
+        "max_score": 100,
+        "difficulty": 0.5
+    },
+    {
+        "name": "Baffling Buffer 1",
+        "write_up": "dataset/raw/Baffling Buffer 1.md",
+        "type": "pwn",
+        "competition": [
+            "MetaCTF/2020",
+            "https://ctftime.org/event/1106/tasks/"
+        ],
+        "score": -1,
+        "max_score": 525,
+        "difficulty": -1
+    },
+    {
+        "name": "Baffling Buffer 2",
+        "write_up": "dataset/raw/Baffling Buffer 2.md",
+        "type": "pwn",
+        "competition": [
+            "MetaCTF/2020",
+            "https://ctftime.org/event/1106/tasks/"
+        ],
+        "score": 400,
+        "max_score": 525,
+        "difficulty": 0.7619047619047619
+    },
+    {
+        "name": "bakflip&sons",
+        "write_up": "dataset/raw/bakflip&sons.md",
+        "type": "crypto",
+        "competition": [
+            "InCTF/2020",
+            "https://ctftime.org/event/981/tasks/"
+        ],
+        "score": 925,
+        "max_score": 1000,
+        "difficulty": 0.925
+    },
+    {
+        "name": "Base64 Encoder",
+        "write_up": "dataset/raw/Base64 Encoder.md",
+        "type": "reverse",
+        "competition": [
+            "Defenit/2020",
+            "https://ctftime.org/event/1060/tasks/"
+        ],
+        "score": 656,
+        "max_score": 906,
+        "difficulty": 0.7240618101545254
+    },
+    {
+        "name": "Based",
+        "write_up": "dataset/raw/Based.md",
+        "type": "crypto",
+        "competition": [
+            "DigitalOverdose/2022",
+            "https://ctftime.org/event/1623/tasks/"
+        ],
+        "score": 200,
+        "max_score": 200,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Bash history",
+        "write_up": "dataset/raw/Bash history.md",
+        "type": "forensics",
+        "competition": [
+            "SyskronSecurity/2020",
+            "https://ctftime.org/event/1148/tasks/"
+        ],
+        "score": 200,
+        "max_score": 500,
+        "difficulty": 0.4
+    },
+    {
+        "name": "BashD00r",
+        "write_up": "dataset/raw/BashD00r.md",
+        "type": "crypto",
+        "competition": [
+            "Aero/2021",
+            "https://ctftime.org/event/1224/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Basic Rev",
+        "write_up": "dataset/raw/Basic Rev.md",
+        "type": "reverse",
+        "competition": [
+            "BYUCTF/2022",
+            "https://ctftime.org/event/1660/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "beef-of-finitude",
+        "write_up": "dataset/raw/beef-of-finitude.md",
+        "type": "pwn",
+        "competition": [
+            "BlueHens/2021",
+            "https://ctftime.org/event/1298/tasks/"
+        ],
+        "score": 100,
+        "max_score": 500,
+        "difficulty": 0.2
+    },
+    {
+        "name": "Befuddled1",
+        "write_up": "dataset/raw/Befuddled1.md",
+        "type": "misc",
+        "competition": [
+            "WolvCTF/2024",
+            "https://ctftime.org/event/2240/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Befuddled2",
+        "write_up": "dataset/raw/Befuddled2.md",
+        "type": "misc",
+        "competition": [
+            "WolvCTF/2024",
+            "https://ctftime.org/event/2240/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Beginner Rev",
+        "write_up": "dataset/raw/Beginner Rev.md",
+        "type": "The type of this challenge is **reverse**.",
+        "competition": [
+            "SwampCTF/2024",
+            "https://ctftime.org/event/2138/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Beginner_s Crypto",
+        "write_up": "dataset/raw/Beginner_s Crypto.md",
+        "type": "crypto",
+        "competition": [
+            "TSG/2021",
+            "https://ctftime.org/event/1431/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Beginner_s Luck",
+        "write_up": "dataset/raw/Beginner_s Luck.md",
+        "type": "web",
+        "competition": [
+            "Securinets/2019/Quals",
+            "https://ctftime.org/event/769/tasks/"
+        ],
+        "score": 989,
+        "max_score": 1000,
+        "difficulty": 0.989
+    },
+    {
+        "name": "Beginner_s Misc",
+        "write_up": "dataset/raw/Beginner_s Misc.md",
+        "type": "misc",
+        "competition": [
+            "TSG/2020",
+            "https://ctftime.org/event/1004/tasks/"
+        ],
+        "score": 157,
+        "max_score": 428,
+        "difficulty": 0.36682242990654207
+    },
+    {
+        "name": "Beginner_s Quest - Filter Env",
+        "write_up": "dataset/raw/Beginner_s Quest - Filter Env.md",
+        "type": "The type of the CTF challenge described in the write-up is a ***pwn*** challenge.",
+        "competition": [
+            "GoogleCTF/2018/Quals",
+            "https://ctftime.org/event/623/tasks/"
+        ],
+        "score": -1,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Beginner_s Quest - Fridge todo List",
+        "write_up": "dataset/raw/Beginner_s Quest - Fridge todo List.md",
+        "type": "pwn",
+        "competition": [
+            "GoogleCTF/2018/Quals",
+            "https://ctftime.org/event/623/tasks/"
+        ],
+        "score": -1,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Beginner_s Quest - Media-DB",
+        "write_up": "dataset/raw/Beginner_s Quest - Media-DB.md",
+        "type": "This write-up describes a SQL injection vulnerability in a music application, where the player can manipulate the query to extract sensitive information. Based on the provided information, the type of this challenge is **web**.",
+        "competition": [
+            "GoogleCTF/2018/Quals",
+            "https://ctftime.org/event/623/tasks/"
+        ],
+        "score": -1,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Behir",
+        "write_up": "dataset/raw/Behir.md",
+        "type": "reverse",
+        "competition": [
+            "WPICTF/2021",
+            "https://ctftime.org/event/1208/tasks/"
+        ],
+        "score": 300,
+        "max_score": 500,
+        "difficulty": 0.6
+    },
+    {
+        "name": "Better Than ASM",
+        "write_up": "dataset/raw/Better Than ASM.md",
+        "type": "This write-up corresponds to a crypto challenge.",
+        "competition": [
+            "BambooFox/2021",
+            "https://ctftime.org/event/1234/tasks/"
+        ],
+        "score": -1,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Better ZIP",
+        "write_up": "dataset/raw/Better ZIP.md",
+        "type": "crypto",
+        "competition": [
+            "GoogleCTF/2018/Quals",
+            "https://ctftime.org/event/623/tasks/"
+        ],
+        "score": 231,
+        "max_score": 500,
+        "difficulty": 0.462
+    },
+
+    {
+        "name": "bigDriver",
+        "write_up": "dataset/raw/bigDriver.md",
+        "type": "pwn",
+        "competition": [
+            "HackZoneTunisia/2020",
+            "https://ctftime.org/event/1029/tasks/"
+        ],
+        "score": 854,
+        "max_score": 1000,
+        "difficulty": 0.854
+    },
+    {
+        "name": "Biggars",
+        "write_up": "dataset/raw/Biggars.md",
+        "type": "crypto",
+        "competition": [
+            "FireShell/2019",
+            "https://ctftime.org/event/727/tasks/"
+        ],
+        "score": 60,
+        "max_score": 500,
+        "difficulty": 0.12
+    },
+    {
+        "name": "Bilinear Evil",
+        "write_up": "dataset/raw/Bilinear Evil.md",
+        "type": "crypto",
+        "competition": [
+            "Pwn2Win/2019",
+            "https://ctftime.org/event/822/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "biooosless",
+        "write_up": "dataset/raw/biooosless.md",
+        "type": "This write-up describes a reverse engineering challenge that involves analyzing a modified BIOS image and writing shellcode to read a flag from a floppy disk. Based on the context provided, the type of challenge in this write-up is **reverse**.",
+        "competition": [
+            "DEFCON/2020/Quals",
+            "https://ctftime.org/event/994/tasks/"
+        ],
+        "score": 145,
+        "max_score": 460,
+        "difficulty": 0.31521739130434784
+    },
+    {
+        "name": "bistro-v2",
+        "write_up": "dataset/raw/bistro-v2.md",
+        "type": "pwn",
+        "competition": [
+            "Defcamp/2023/Quals",
+            "https://ctftime.org/event/2106/tasks/"
+        ],
+        "score": 10,
+        "max_score": 347,
+        "difficulty": 0.02881844380403458
+    },
+    {
+        "name": "bistro",
+        "write_up": "dataset/raw/bistro.md",
+        "type": "pwn",
+        "competition": [
+            "Defcamp/2023/Quals",
+            "https://ctftime.org/event/2106/tasks/"
+        ],
+        "score": 12,
+        "max_score": 347,
+        "difficulty": 0.0345821325648415
+    },
+    {
+        "name": "Bit Flip 1",
+        "write_up": "dataset/raw/Bit Flip 1.md",
+        "type": "crypto",
+        "competition": [
+            "Dragon/2020",
+            "https://ctftime.org/event/1082/tasks/"
+        ],
+        "score": 155,
+        "max_score": 500,
+        "difficulty": 0.31
+    },
+    {
+        "name": "bitbitbit",
+        "write_up": "dataset/raw/bitbitbit.md",
+        "type": "crypto",
+        "competition": [
+            "MeePwn/2018/Quals",
+            "https://ctftime.org/event/625/tasks/"
+        ],
+        "score": -1,
+        "max_score": 940,
+        "difficulty": -1
+    },
+    {
+        "name": "Bitflipper",
+        "write_up": "dataset/raw/Bitflipper.md",
+        "type": "reverse",
+        "competition": [
+            "DEFCON/2018/Quals",
+            "https://ctftime.org/event/608/tasks/"
+        ],
+        "score": 177,
+        "max_score": 500,
+        "difficulty": 0.354
+    },
+    {
+        "name": "Bits",
+        "write_up": "dataset/raw/Bits.md",
+        "type": "crypto",
+        "competition": [
+            "CSAW/2021/Quals",
+            "https://ctftime.org/event/1315/tasks/"
+        ],
+        "score": 497,
+        "max_score": 500,
+        "difficulty": 0.994
+    },
+    {
+        "name": "blank",
+        "write_up": "dataset/raw/blank.md",
+        "type": "This is a web challenge.",
+        "competition": [
+            "ImaginaryCTF/2023",
+            "https://ctftime.org/event/2015/tasks/"
+        ],
+        "score": 100,
+        "max_score": 490,
+        "difficulty": 0.20408163265306123
+    },
+    {
+        "name": "Blind Shell",
+        "write_up": "dataset/raw/Blind Shell.md",
+        "type": "misc",
+        "competition": [
+            "kksctf/2020",
+            "https://ctftime.org/event/1112/tasks/"
+        ],
+        "score": 345,
+        "max_score": 411,
+        "difficulty": 0.8394160583941606
+    },
+    {
+        "name": "Blob 200",
+        "write_up": "dataset/raw/Blob 200.md",
+        "type": "forensics",
+        "competition": [
+            "RITSEC/2021",
+            "https://ctftime.org/event/1309/tasks/"
+        ],
+        "score": -1,
+        "max_score": 925,
+        "difficulty": -1
+    },
+    {
+        "name": "block-game",
+        "write_up": "dataset/raw/block-game.md",
+        "type": "reverse",
+        "competition": [
+            "TJCTF/2022",
+            "https://ctftime.org/event/1599/tasks/"
+        ],
+        "score": 350,
+        "max_score": 500,
+        "difficulty": 0.7
+    },
+    {
+        "name": "BLOCKchain",
+        "write_up": "dataset/raw/BLOCKchain.md",
+        "type": "reverse",
+        "competition": [
+            "Square/2022",
+            "https://ctftime.org/event/1756/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "book",
+        "write_up": "dataset/raw/book.md",
+        "type": "pwn",
+        "competition": [
+            "0CTF/2021/Quals",
+            "https://ctftime.org/event/1356/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "Bookshelf",
+        "write_up": "dataset/raw/Bookshelf.md",
+        "type": "crypto",
+        "competition": [
+            "GoogleCTF/2018/Quals",
+            "https://ctftime.org/event/623/tasks/"
+        ],
+        "score": 363,
+        "max_score": 500,
+        "difficulty": 0.726
+    },
+    {
+        "name": "Bop It",
+        "write_up": "dataset/raw/Bop It.md",
+        "type": "pwn",
+        "competition": [
+            "angstrom/2020",
+            "https://ctftime.org/event/982/tasks/"
+        ],
+        "score": 80,
+        "max_score": 300,
+        "difficulty": 0.26666666666666666
+    },
+    {
+        "name": "boring-flag-runner",
+        "write_up": "dataset/raw/boring-flag-runner.md",
+        "type": "reverse",
+        "competition": [
+            "RaRCTF/2021",
+            "https://ctftime.org/event/1342/tasks/"
+        ],
+        "score": 300,
+        "max_score": 1500,
+        "difficulty": 0.2
+    },
+    {
+        "name": "Borraccia",
+        "write_up": "dataset/raw/Borraccia.md",
+        "type": "misc",
+        "competition": [
+            "TeamItaly/2023",
+            "https://ctftime.org/event/2088/tasks/"
+        ],
+        "score": 453,
+        "max_score": 500,
+        "difficulty": 0.906
+    },
+    {
+        "name": "Bowrain",
+        "write_up": "dataset/raw/Bowrain.md",
+        "type": "pwn",
+        "competition": [
+            "SecurityFest/2018",
+            "https://ctftime.org/event/622/tasks/"
+        ],
+        "score": 261,
+        "max_score": 499,
+        "difficulty": 0.5230460921843687
+    },
+    {
+        "name": "bpf_badjmp",
+        "write_up": "dataset/raw/bpf_badjmp.md",
+        "type": "pwn",
+        "competition": [
+            "UIUCTF/2021",
+            "https://ctftime.org/event/1372/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Braincool",
+        "write_up": "dataset/raw/Braincool.md",
+        "type": "web",
+        "competition": [
+            "LedgerDonjon/2021",
+            "https://ctftime.org/event/1516/tasks/"
+        ],
+        "score": 250,
+        "max_score": 400,
+        "difficulty": 0.625
+    },
+    {
+        "name": "BrainSim",
+        "write_up": "dataset/raw/BrainSim.md",
+        "type": "pwn",
+        "competition": [
+            "COMPFEST/2021",
+            "https://ctftime.org/event/1358/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Breath of Shadow",
+        "write_up": "dataset/raw/Breath of Shadow.md",
+        "type": "crypto",
+        "competition": [
+            "HITCON/2019/Quals",
+            "https://ctftime.org/event/848/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "brie man",
+        "write_up": "dataset/raw/brie man.md",
+        "type": "misc",
+        "competition": [
+            "HXP/2021",
+            "https://ctftime.org/event/1447/tasks/"
+        ],
+        "score": 208,
+        "max_score": 1000,
+        "difficulty": 0.208
+    },
+    {
+        "name": "brillouin",
+        "write_up": "dataset/raw/brillouin.md",
+        "type": "crypto",
+        "competition": [
+            "CSAW/2019/Quals",
+            "https://ctftime.org/event/870/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Brittle Little Secret",
+        "write_up": "dataset/raw/Brittle Little Secret.md",
+        "type": "crypto",
+        "competition": [
+            "LedgerDonjon/2021",
+            "https://ctftime.org/event/1516/tasks/"
+        ],
+        "score": 200,
+        "max_score": 400,
+        "difficulty": 0.5
+    },
+    {
+        "name": "Broken Invitation",
+        "write_up": "dataset/raw/Broken Invitation.md",
+        "type": "crypto",
+        "competition": [
+            "CyBRICS/2020",
+            "https://ctftime.org/event/1012/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "Broken TV",
+        "write_up": "dataset/raw/Broken TV.md",
+        "type": "misc",
+        "competition": [
+            "Defcamp/2018/Quals",
+            "https://ctftime.org/event/654/tasks/"
+        ],
+        "score": 83,
+        "max_score": 369,
+        "difficulty": 0.22493224932249323
+    },
+    {
+        "name": "brokenimg 100",
+        "write_up": "dataset/raw/brokenimg 100.md",
+        "type": "forensics",
+        "competition": [
+            "TCP1P-CTF/2023",
+            "https://ctftime.org/event/2001/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "bson",
+        "write_up": "dataset/raw/bson.md",
+        "type": "misc",
+        "competition": [
+            "kksctf/2020",
+            "https://ctftime.org/event/1112/tasks/"
+        ],
+        "score": -1,
+        "max_score": 411,
+        "difficulty": -1
+    },
+    {
+        "name": "Buggy PWN",
+        "write_up": "dataset/raw/Buggy PWN.md",
+        "type": "pwn",
+        "competition": [
+            "CTFZone/2018/Quals",
+            "https://ctftime.org/event/632/tasks/"
+        ],
+        "score": 138,
+        "max_score": 500,
+        "difficulty": 0.276
+    },
+    {
+        "name": "bunnydance",
+        "write_up": "dataset/raw/bunnydance.md",
+        "type": "pwn",
+        "competition": [
+            "b01lers/2021",
+            "https://ctftime.org/event/1259/tasks/"
+        ],
+        "score": 497,
+        "max_score": 500,
+        "difficulty": 0.994
+    },
+    {
+        "name": "Burn the candle on both the ends",
+        "write_up": "dataset/raw/Burn the candle on both the ends.md",
+        "type": "forensics",
+        "competition": [
+            "RITSEC/2018",
+            "https://ctftime.org/event/682/tasks/"
+        ],
+        "score": 150,
+        "max_score": 500,
+        "difficulty": 0.3
+    },
+    {
+        "name": "ButterFly",
+        "write_up": "dataset/raw/ButterFly.md",
+        "type": "pwn",
+        "competition": [
+            "CSCML/2020",
+            "https://ctftime.org/event/1071/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Buyify",
+        "write_up": "dataset/raw/Buyify.md",
+        "type": "crypto",
+        "competition": [
+            "CSAW/2019/Quals",
+            "https://ctftime.org/event/870/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "bynary encoding",
+        "write_up": "dataset/raw/bynary encoding.md",
+        "type": "misc",
+        "competition": [
+            "SpaceHeroes/2023",
+            "https://ctftime.org/event/1856/tasks/"
+        ],
+        "score": 148,
+        "max_score": 1000,
+        "difficulty": 0.148
+    },
+    {
+        "name": "byte_me",
+        "write_up": "dataset/raw/byte_me.md",
+        "type": "crypto",
+        "competition": [
+            "CSAW/2019/Quals",
+            "https://ctftime.org/event/870/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "B__e64",
+        "write_up": "dataset/raw/B__e64.md",
+        "type": "The type of this CTF challenge is **crypto**.",
+        "competition": [
+            "TSG/2021",
+            "https://ctftime.org/event/1431/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "C is G _ Ez Camel",
+        "write_up": "dataset/raw/C is G _ Ez Camel.md",
+        "type": "crypto",
+        "competition": [
+            "Securinets/2020/Quals",
+            "https://ctftime.org/event/1016/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "calc",
+        "write_up": "dataset/raw/calc.md",
+        "type": "pwn",
+        "competition": [
+            "ALLES/2020",
+            "https://ctftime.org/event/1091/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Califrobnication",
+        "write_up": "dataset/raw/Califrobnication.md",
+        "type": "reverse",
+        "competition": [
+            "angstrom/2020",
+            "https://ctftime.org/event/982/tasks/"
+        ],
+        "score": 120,
+        "max_score": 300,
+        "difficulty": 0.4
+    },
+    {
+        "name": "Camouflage",
+        "write_up": "dataset/raw/Camouflage.md",
+        "type": "misc",
+        "competition": [
+            "darkCON/2021",
+            "https://ctftime.org/event/1250/tasks/"
+        ],
+        "score": 497,
+        "max_score": 500,
+        "difficulty": 0.994
+    },
+    {
+        "name": "cancelled",
+        "write_up": "dataset/raw/cancelled.md",
+        "type": "pwn",
+        "competition": [
+            "UTCTF/2020",
+            "https://ctftime.org/event/929/tasks/"
+        ],
+        "score": 1879,
+        "max_score": 1991,
+        "difficulty": 0.9437468608739327
+    },
+    {
+        "name": "Careless Padding",
+        "write_up": "dataset/raw/Careless Padding.md",
+        "type": "The type of this CTF challenge is **crypto**.",
+        "competition": [
+            "HITCON/2023/Quals",
+            "https://ctftime.org/event/2019/tasks/"
+        ],
+        "score": 255,
+        "max_score": 500,
+        "difficulty": 0.51
+    },
+    {
+        "name": "Casino 2",
+        "write_up": "dataset/raw/Casino 2.md",
+        "type": "crypto",
+        "competition": [
+            "TetCTF/2023",
+            "https://ctftime.org/event/1842/tasks/"
+        ],
+        "score": 919,
+        "max_score": 971,
+        "difficulty": 0.9464469618949537
+    },
+    {
+        "name": "Cat Me if You Can",
+        "write_up": "dataset/raw/Cat Me if You Can.md",
+        "type": "misc",
+        "competition": [
+            "HackPack/2023",
+            "https://ctftime.org/event/1893/tasks/"
+        ],
+        "score": 100,
+        "max_score": 500,
+        "difficulty": 0.2
+    },
+    {
+        "name": "Cat",
+        "write_up": "dataset/raw/Cat.md",
+        "type": "misc",
+        "competition": [
+            "0xL4ugh/2021",
+            "https://ctftime.org/event/1248/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 825,
+        "difficulty": -1
+    },
+    {
+        "name": "Catastrophe",
+        "write_up": "dataset/raw/Catastrophe.md",
+        "type": "pwn",
+        "competition": [
+            "TSG/2021",
+            "https://ctftime.org/event/1431/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Catchmouse",
+        "write_up": "dataset/raw/Catchmouse.md",
+        "type": "reverse",
+        "competition": [
+            "Defenit/2020",
+            "https://ctftime.org/event/1060/tasks/"
+        ],
+        "score": 690,
+        "max_score": 906,
+        "difficulty": 0.7615894039735099
+    },
+    {
+        "name": "CatGirl Breach",
+        "write_up": "dataset/raw/CatGirl Breach.md",
+        "type": "misc",
+        "competition": [
+            "CyBRICS/2020",
+            "https://ctftime.org/event/1012/tasks/"
+        ],
+        "score": 273,
+        "max_score": 500,
+        "difficulty": 0.546
+    },
+    {
+        "name": "Caught Very Easily",
+        "write_up": "dataset/raw/Caught Very Easily.md",
+        "type": "The type of the challenge is OSINT (Open Source Intelligence).",
+        "competition": [
+            "vishwa/2022",
+            "https://ctftime.org/event/1548/tasks/"
+        ],
+        "score": 482,
+        "max_score": 500,
+        "difficulty": 0.964
+    },
+    {
+        "name": "CB2",
+        "write_up": "dataset/raw/CB2.md",
+        "type": "crypto",
+        "competition": [
+            "Sunshine/2019",
+            "https://ctftime.org/event/767/tasks/"
+        ],
+        "score": 100,
+        "max_score": 350,
+        "difficulty": 0.2857142857142857
+    },
+    {
+        "name": "CB3",
+        "write_up": "dataset/raw/CB3.md",
+        "type": "crypto",
+        "competition": [
+            "Sunshine/2019",
+            "https://ctftime.org/event/767/tasks/"
+        ],
+        "score": 150,
+        "max_score": 350,
+        "difficulty": 0.42857142857142855
+    },
+    {
+        "name": "CEO",
+        "write_up": "dataset/raw/CEO.md",
+        "type": "misc",
+        "competition": [
+            "UIUCTF/2021",
+            "https://ctftime.org/event/1372/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "cerberus",
+        "write_up": "dataset/raw/cerberus.md",
+        "type": "crypto",
+        "competition": [
+            "SECCON/2021",
+            "https://ctftime.org/event/1458/tasks/"
+        ],
+        "score": 227,
+        "max_score": 428,
+        "difficulty": 0.530373831775701
+    },
+    {
+        "name": "Cereal Killer 01",
+        "write_up": "dataset/raw/Cereal Killer 01.md",
+        "type": "The type of this CTF challenge is **reverse**.",
+        "competition": [
+            "DEADFACE/2023",
+            "https://ctftime.org/event/2031/tasks/"
+        ],
+        "score": -1,
+        "max_score": -1,
+        "difficulty": -1
+    },
+    {
+        "name": "Chad _The Jaw_ Bronson",
+        "write_up": "dataset/raw/Chad _The Jaw_ Bronson.md",
+        "type": "misc",
+        "competition": [
+            "BYUCTF/2022",
+            "https://ctftime.org/event/1660/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "CHANGE_VM",
+        "write_up": "dataset/raw/CHANGE_VM.md",
+        "type": "reverse",
+        "competition": [
+            "justCTF/2019",
+            "https://ctftime.org/event/943/tasks/"
+        ],
+        "score": 347,
+        "max_score": 500,
+        "difficulty": 0.694
+    },
+    {
+        "name": "Chaos",
+        "write_up": "dataset/raw/Chaos.md",
+        "type": "crypto",
+        "competition": [
+            "ISITDTU/2019/Quals",
+            "https://ctftime.org/event/803/tasks/"
+        ],
+        "score": 1000,
+        "max_score": 1000,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Chaplin_s PR Nightmare - 1",
+        "write_up": "dataset/raw/Chaplin_s PR Nightmare - 1.md",
+        "type": "This write-up describes an OSINT (Open-source intelligence) challenge where the participants had to find Charlie Chaplin's Twitter account and investigate it to find the flag. Based on the context provided, the type of this challenge is **miscellaneous (misc)**.",
+        "competition": [
+            "UIUCTF/2021",
+            "https://ctftime.org/event/1372/tasks/"
+        ],
+        "score": 50,
+        "max_score": 500,
+        "difficulty": 0.1
+    },
+    {
+        "name": "cheapest-cookies-2",
+        "write_up": "dataset/raw/cheapest-cookies-2.md",
+        "type": "misc",
+        "competition": [
+            "TJCTF/2022",
+            "https://ctftime.org/event/1599/tasks/"
+        ],
+        "score": 253,
+        "max_score": 500,
+        "difficulty": 0.506
+    },
+    {
+        "name": "cheater mind",
+        "write_up": "dataset/raw/cheater mind.md",
+        "type": "misc",
+        "competition": [
+            "Zh3r0/2021",
+            "https://ctftime.org/event/1285/tasks/"
+        ],
+        "score": 997,
+        "max_score": 997,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Child Encrypter",
+        "write_up": "dataset/raw/Child Encrypter.md",
+        "type": "crypto",
+        "competition": [
+            "Defenit/2020",
+            "https://ctftime.org/event/1060/tasks/"
+        ],
+        "score": 598,
+        "max_score": 906,
+        "difficulty": 0.6600441501103753
+    },
+    {
+        "name": "child-re",
+        "write_up": "dataset/raw/child-re.md",
+        "type": "crypto",
+        "competition": [
+            "WolvCTF/2023",
+            "https://ctftime.org/event/1866/tasks/"
+        ],
+        "score": 100,
+        "max_score": 700,
+        "difficulty": 0.14285714285714285
+    },
+    {
+        "name": "chunk norris",
+        "write_up": "dataset/raw/chunk norris.md",
+        "type": "crypto",
+        "competition": [
+            "GoogleCTF/2020",
+            "https://ctftime.org/event/1041/tasks/"
+        ],
+        "score": 98,
+        "max_score": 474,
+        "difficulty": 0.20675105485232068
+    },
+    {
+        "name": "Chunkies",
+        "write_up": "dataset/raw/Chunkies.md",
+        "type": "forensics",
+        "competition": [
+            "Shakti/2021",
+            "https://ctftime.org/event/1251/tasks/"
+        ],
+        "score": 100,
+        "max_score": 400,
+        "difficulty": 0.25
+    },
+    {
+        "name": "CictroKDF",
+        "write_up": "dataset/raw/CictroKDF.md",
+        "type": "crypto",
+        "competition": [
+            "RITSEC/2019",
+            "https://ctftime.org/event/898/tasks/"
+        ],
+        "score": 500,
+        "max_score": 625,
+        "difficulty": 0.8
+    },
+    {
+        "name": "Circuitry Magic",
+        "write_up": "dataset/raw/Circuitry Magic.md",
+        "type": "reverse",
+        "competition": [
+            "m0leCon/2022/Quals",
+            "https://ctftime.org/event/1615/tasks/"
+        ],
+        "score": 144,
+        "max_score": 500,
+        "difficulty": 0.288
+    },
+    {
+        "name": "City RSA",
+        "write_up": "dataset/raw/City RSA.md",
+        "type": "pwn",
+        "competition": [
+            "P.W.N/2018",
+            "https://ctftime.org/event/639/tasks/"
+        ],
+        "score": 557,
+        "max_score": 792,
+        "difficulty": 0.7032828282828283
+    },
+    {
+        "name": "Clever Thinking",
+        "write_up": "dataset/raw/Clever Thinking.md",
+        "type": "crypto",
+        "competition": [
+            "UofTCTF/2024",
+            "https://ctftime.org/event/2219/tasks/"
+        ],
+        "score": 442,
+        "max_score": 500,
+        "difficulty": 0.884
+    },
+    {
+        "name": "Close primes",
+        "write_up": "dataset/raw/Close primes.md",
+        "type": "crypto",
+        "competition": [
+            "ASIS/2019/Finals",
+            "https://ctftime.org/event/805/tasks/"
+        ],
+        "score": 136,
+        "max_score": 477,
+        "difficulty": 0.2851153039832285
+    },
+    {
+        "name": "Cloud 9_9",
+        "write_up": "dataset/raw/Cloud 9_9.md",
+        "type": "This write-up corresponds to a **misc** (miscellaneous) challenge in a CTF (Capture The Flag) competition.",
+        "competition": [
+            "nullconHackIM/2022",
+            "https://ctftime.org/event/1718/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 500,
+        "difficulty": -1
+    },
+    {
+        "name": "Coal Miner",
+        "write_up": "dataset/raw/Coal Miner.md",
+        "type": "pwn",
+        "competition": [
+            "UMDCTF/2020",
+            "https://ctftime.org/event/1040/tasks/"
+        ],
+        "score": 800,
+        "max_score": 800,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Code Golf",
+        "write_up": "dataset/raw/Code Golf.md",
+        "type": "crypto",
+        "competition": [
+            "GoogleCTF/2019/Quals",
+            "https://ctftime.org/event/809/tasks/"
+        ],
+        "score": 333,
+        "max_score": 500,
+        "difficulty": 0.666
+    },
+    {
+        "name": "Coins",
+        "write_up": "dataset/raw/Coins.md",
+        "type": "pwn",
+        "competition": [
+            "InCTF/2020",
+            "https://ctftime.org/event/981/tasks/"
+        ],
+        "score": 100,
+        "max_score": 1000,
+        "difficulty": 0.1
+    },
+    {
+        "name": "Compromised",
+        "write_up": "dataset/raw/Compromised.md",
+        "type": "crypto",
+        "competition": [
+            "CyberSecurityRumble/2021",
+            "https://ctftime.org/event/1429/tasks/"
+        ],
+        "score": 564,
+        "max_score": 760,
+        "difficulty": 0.7421052631578947
+    },
+    {
+        "name": "Computeration Fixed",
+        "write_up": "dataset/raw/Computeration Fixed.md",
+        "type": "web",
+        "competition": [
+            "justCTF/2021",
+            "https://ctftime.org/event/1050/tasks/"
+        ],
+        "score": 333,
+        "max_score": 500,
+        "difficulty": 0.666
+    },
+    {
+        "name": "config-me",
+        "write_up": "dataset/raw/config-me.md",
+        "type": "reverse",
+        "competition": [
+            "BSidesSF/2020",
+            "https://ctftime.org/event/977/tasks/"
+        ],
+        "score": 472,
+        "max_score": 493,
+        "difficulty": 0.9574036511156186
+    },
+    {
+        "name": "Contrived Shellcode",
+        "write_up": "dataset/raw/Contrived Shellcode.md",
+        "type": "pwn",
+        "competition": [
+            "TAMUctf/2023",
+            "https://ctftime.org/event/1914/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Coronacation",
+        "write_up": "dataset/raw/Coronacation.md",
+        "type": "pwn",
+        "competition": [
+            "DawgCTF/2020",
+            "https://ctftime.org/event/1030/tasks/"
+        ],
+        "score": 400,
+        "max_score": 500,
+        "difficulty": 0.8
+    },
+    {
+        "name": "Corp monitoring",
+        "write_up": "dataset/raw/Corp monitoring.md",
+        "type": "misc",
+        "competition": [
+            "VolgaCTF/2018/Quals",
+            "https://ctftime.org/event/539/tasks/"
+        ],
+        "score": 200,
+        "max_score": 500,
+        "difficulty": 0.4
+    },
+    {
+        "name": "Corruption 500",
+        "write_up": "dataset/raw/Corruption 500.md",
+        "type": "misc",
+        "competition": [
+            "RITSEC/2021",
+            "https://ctftime.org/event/1309/tasks/"
+        ],
+        "score": -1,
+        "max_score": 925,
+        "difficulty": -1
+    },
+    {
+        "name": "Council Of Apes",
+        "write_up": "dataset/raw/Council Of Apes.md",
+        "type": "The type of challenge in this write-up is a pwn challenge.",
+        "competition": [
+            "Glacier/2023",
+            "https://ctftime.org/event/1992/tasks/"
+        ],
+        "score": -1,
+        "max_score": 428,
+        "difficulty": -1
+    },
+    {
+        "name": "Courier",
+        "write_up": "dataset/raw/Courier.md",
+        "type": "reverse",
+        "competition": [
+            "TAMUctf/2023",
+            "https://ctftime.org/event/1914/tasks/"
+        ],
+        "score": 500,
+        "max_score": 500,
+        "difficulty": 1.0
+    },
+    {
+        "name": "Covid tracker tracker tracker",
+        "write_up": "dataset/raw/Covid tracker tracker tracker.md",
+        "type": "pwn",
+        "competition": [
+            "NACTF/2020",
+            "https://ctftime.org/event/1157/tasks/"
+        ],
+        "score": 500,
+        "max_score": 800,
+        "difficulty": 0.625
+    },
+    {
+        "name": "Cplusplus",
+        "write_up": "dataset/raw/Cplusplus.md",
+        "type": "Based on the information provided in the CTF write-up, the type of challenge is: reverse",
+        "competition": [
+            "De1CTF/2019",
+            "https://ctftime.org/event/843/tasks/"
+        ],
+        "score": 357,
+        "max_score": 952,
+        "difficulty": 0.375
+    },
+    {
+        "name": "CPP",
+        "write_up": "dataset/raw/CPP.md",
+        "type": "reverse",
+        "competition": [
+            "GoogleCTF/2021",
+            "https://ctftime.org/event/1318/tasks/"
+        ],
+        "score": 75,
+        "max_score": 233123.2321,
+        "difficulty": 0.00032171825744003145
+    },
+    {
+        "name": "Crack-a-Mateo",
+        "write_up": "dataset/raw/Crack-a-Mateo.md",
+        "type": "crypto",
+        "competition": [
+            "JerseyCTF/2024",
+            "https://ctftime.org/event/2230/tasks/"
+        ],
+        "score": 493,
+        "max_score": 1000,
+        "difficulty": 0.493
+    },
+    {
+        "name": "Crackme",
+        "write_up": "dataset/raw/Crackme.md",
+        "type": "pwn",
+        "competition": [
+            "0x41414141/2021",
+            "https://ctftime.org/event/1249/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "Crackme",
+        "write_up": "dataset/raw/Crackme.sol.md",
+        "type": "web",
+        "competition": [
+            "0x41414141/2021",
+            "https://ctftime.org/event/1249/tasks/"
+        ],
+        "score": -1.0,
+        "max_score": 1000,
+        "difficulty": -1
+    },
+    {
+        "name": "CRAPSaaS",
+        "write_up": "dataset/raw/CRAPSaaS.md",
+        "type": "reverse",
+        "competition": [
+            "THCon/2021",
+            "https://ctftime.org/event/1381/tasks/"
+        ],
+        "score": 498,
+        "max_score": 500,
+        "difficulty": 0.996
+    },
+    {
+        "name": "CRAPSemu",
+        "write_up": "dataset/raw/CRAPSemu.md",
+        "type": "reverse",
+        "competition": [
+            "THCon/2021",
+            "https://ctftime.org/event/1381/tasks/"
+        ],
+        "score": 493,
+        "max_score": 500,
+        "difficulty": 0.986
+    },
+    {
+        "name": "crccalc2",
+        "write_up": "dataset/raw/crccalc2.md",
+        "type": "crypto",
+        "competition": [
+            "ALLES/2020",
+            "https://ctftime.org/event/1091/tasks/"
+        ],
+        "score": 313,
+        "max_score": 500,
+        "difficulty": 0.626
+    },
+    {
+        "name": "Crooked Roulette",
+        "write_up": "dataset/raw/Crooked Roulette.md",
+        "type": "crypto",
+        "competition": [
+            "KITCTFCTF/2022",
+            "https://ctftime.org/event/1810/tasks/"
+        ],
+        "score": 451,
+        "max_score": 500,
+        "difficulty": 0.902
+    },
+    {
+        "name": "cross-site-python",
+        "write_up": "dataset/raw/cross-site-python.md",
+        "type": "web",
+        "competition": [
+            "KITCTFCTF/2023",
+            "https://ctftime.org/event/1965/tasks/"
+        ],
+        "score": 345,
+        "max_score": 1000,
+        "difficulty": 0.345
+    },
+    {
+        "name": "CRYMEPLX",
+        "write_up": "dataset/raw/CRYMEPLX.md",
+        "type": "crypto",
+        "competition": [
+            "CyberSecurityRumble/2022",
+            "https://ctftime.org/event/1665/tasks/"
+        ],
+        "score": 100,
+        "max_score": 960,
+        "difficulty": 0.10416666666666667
+    },
+    {
+        "name": "crypto 01",
+        "write_up": "dataset/raw/crypto 01.md",
+        "type": "crypto",
+        "competition": [
+            "WhiteHat/2018/Quals",
+            "https://ctftime.org/event/656/tasks/"
+        ],
+        "score": 380,
+        "max_score": 420,
+        "difficulty": 0.9047619047619048
+    },
+    {
+        "name": "crypto casino",
+        "write_up": "dataset/raw/crypto casino.md",
+        "type": "crypto",
+        "competition": [
+            "0x41414141/2021",
+            "https://ctftime.org/event/1249/tasks/"
+        ],
+        "score": 487,
+        "max_score": 1000,
+        "difficulty": 0.487
+    }
+]
